@@ -11,10 +11,10 @@
 .mtj.tmp/
 
 # Properties files
-
+*.properties
 
 # Package Files #
-
+*.jar
 *.war
 *.nar
 *.ear
@@ -28,6 +28,7 @@
 .allure/
 .gradle/
 allure-results/
+gradle/
 build/
 bin/
 out/
@@ -39,3 +40,5 @@ target/
 .vscode
 /gradlew
 /gradlew.bat
+
+.DS_Store
